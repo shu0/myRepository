@@ -19,8 +19,8 @@ class PostsController extends AppController {
 		//debug($this->request);
 		//debug($this->Session->read('SessionData.title'));
 		//debug($this->Post->id);
-		//debug(dirname(__FILE__));
-		//debug( dirname($_SERVER["SCRIPT_NAME"]));
+		debug(dirname(__FILE__));
+		debug( dirname($_SERVER["SCRIPT_NAME"]));
 	}
 
 	public function view($id = null) {
